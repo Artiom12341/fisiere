@@ -18,7 +18,7 @@ for i in lista:
     elif coloana[3]=="Germana" or coloana[3]=="germana":
         sg+=int(coloana[2])
         dg+=1
-        with open('desktop/Lista Clasei 11A.Engleza.txt','a') as z:
+        with open('desktop/Lista Clasei 11A.Germana.txt','a') as z:
             a=coloana[0]+' '+coloana[1]+'   '+coloana[2]+'\n'
             z.write(a)
 with open('desktop/Lista Clasei 11A.Engleza.txt','a') as g:
